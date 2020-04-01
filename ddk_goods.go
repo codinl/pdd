@@ -262,7 +262,6 @@ type GoodsPromotionUrl struct {
 	WeAppWebViewShortUrl string `json:"we_app_web_view_short_url"`
 
 	WeAppInfo   WeAppInfo   `json:"we_app_info"`
-	GoodsDetail GoodsDetail `json:"goods_detail"`
 }
 
 //小程序信息

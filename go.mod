@@ -1,4 +1,4 @@
-module github.com/liunian1004/pdd
+module github.com/codinl/pdd
 
 require (
 	github.com/bitly/go-simplejson v0.5.0

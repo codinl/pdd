@@ -260,6 +260,21 @@ type GoodsPromotionUrl struct {
 	MobileShortUrl       string `json:"mobile_short_url"`
 	WeAppWebViewUrl      string `json:"we_app_web_view_url"`
 	WeAppWebViewShortUrl string `json:"we_app_web_view_short_url"`
+
+	WeAppInfo   WeAppInfo   `json:"we_app_info"`
+	GoodsDetail GoodsDetail `json:"goods_detail"`
+}
+
+//小程序信息
+type WeAppInfo struct {
+	WeAppIconUrl      string `json:"we_app_icon_url"`     // 小程序图片
+	BannerUrl         string `json:"banner_url"`          // Banner图
+	Desc              string `json:"desc"`                // 描述
+	SourceDisplayName string `json:"source_display_name"` // 来源名
+	PagePath          string `json:"page_path"`           // 小程序path值
+	UserName          string `json:"user_name"`           // 用户名
+	Title             string `json:"title"`               // 小程序标题
+	AppId             string `json:"app_id"`              // 拼多多小程序id
 }
 
 // create promotion url
